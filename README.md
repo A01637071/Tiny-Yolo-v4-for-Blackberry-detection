@@ -16,17 +16,18 @@ The model was trained using images captured in greenhouse environments, compleme
 ```bash
 Tiny-Yolo-v4-for-Blackberry-detection/
 │
-├── yolov4-tiny-custom.cfg      # Model configuration
-├── yolov4-tiny-custom_best.weights  # Trained weights
-├── obj.names                # Class names
+├── model/
+│   ├── blackberry-tiny-yolov4.cfg      # Model configuration
+│   ├── blackberry-tiny-yolov4.weights  # Trained weights
+│   └── blackberry.names                # Class names
 │
 ├── data/
 │   ├── obj.data                        # Dataset configuration
-│   ├── obj.names                       # Class labels
+│   └── obj.names                       # Class labels
 │
 ├── videos/
-│   └── color1.mp4                  # Sample videos
-│   └── color2.mp4
+│   ├── color1.mp4                  # Sample videos
+│   ├── color2.mp4
 │   └── resultado.mp4
 │
 ├── test.py                          # Script to use the model on an image
