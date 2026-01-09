@@ -17,13 +17,13 @@ The model was trained using images captured in greenhouse environments, compleme
 Tiny-Yolo-v4-for-Blackberry-detection/
 │
 ├── model/
-│   ├── blackberry-tiny-yolov4.cfg      # Model configuration
-│   ├── blackberry-tiny-yolov4.weights  # Trained weights
-│   └── blackberry.names                # Class names
+│   ├── yolov4-tiny-custom.cfg      # Model configuration
+│   ├── yolov4-tiny-custom_best.weights  # Trained weights
+│   └── obj.names                # Class names
 │
 ├── data/
-│   ├── obj.data                        # Dataset configuration
-│   └── obj.names                       # Class labels
+│   ├── obj.data                        # Data for training
+│   └── process.py                    # File for training
 │
 ├── videos/
 │   ├── color1.mp4                  # Sample videos
@@ -37,9 +37,10 @@ Tiny-Yolo-v4-for-Blackberry-detection/
 ### Training curve
 <img width="500" height="500" alt="Training curve" src="https://github.com/user-attachments/assets/ca2edc56-a330-4be9-b3fa-6593364520d7" />
 
-### Demo video
+### Demo image
 
-https://github.com/user-attachments/assets/402f8f6a-3ffa-4c63-af13-204daa1ada36
+![deteccion_resultado_3clases](https://github.com/user-attachments/assets/180b58ca-0071-48f3-b16b-ffae315eba4f)
+
 
 ## Testing the model
 Using test.py, you should be able to test the model on any random picture you may want just by adjusting what the file specifies.
