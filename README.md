@@ -19,11 +19,9 @@ Tiny-Yolo-v4-for-Blackberry-detection/
 ├── model/
 │   ├── yolov4-tiny-custom.cfg      # Model configuration
 │   ├── yolov4-tiny-custom_best.weights  # Trained weights
+│   ├── obj.data                        # Data (only used for training)
+│   ├── process.py                    # Training process
 │   └── obj.names                # Class names
-│
-├── data/
-│   ├── obj.data                        # Data for training
-│   └── process.py                    # File for training
 │
 ├── videos/
 │   ├── color1.mp4                  # Sample videos
