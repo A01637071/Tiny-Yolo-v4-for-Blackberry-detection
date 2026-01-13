@@ -23,10 +23,23 @@ Tiny-Yolo-v4-for-Blackberry-detection/
 │   ├── process.py                    # Training process
 │   └── obj.names                # Class names
 │
+├── results/
+│   ├── chart.png                    # Training curve
+│   ├── detection.jpg              # Model inference on an image
+│   └── detection2.jpg             # Image without inference
+│
 ├── videos/
 │   ├── color1.mp4                  # Sample videos
-│   ├── color2.mp4
 │   └── resultado.mp4
+│
+├── train/
+│   └── .jpg, .png            # Training dataset
+│ 
+├── test/
+│   └── .jpg, .png            # Testing dataset
+│ 
+├── val/
+│   └── .jpg, .png            # Validation dataset
 │
 ├── test.py                          # Script to use the model on an image
 └── README.md
