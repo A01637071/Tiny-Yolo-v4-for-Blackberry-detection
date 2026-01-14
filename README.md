@@ -50,7 +50,8 @@ Tiny-Yolo-v4-for-Blackberry-detection/
 
 ### Demo image
 
-![deteccion_resultado_3clases](https://github.com/user-attachments/assets/180b58ca-0071-48f3-b16b-ffae315eba4f)
+![yolo_result](https://github.com/user-attachments/assets/8a22757b-8a1f-4276-b768-0dc3abe4bef9)
+
 
 
 ## Testing the model
